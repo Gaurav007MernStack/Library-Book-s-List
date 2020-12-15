@@ -1,0 +1,52 @@
+body{
+    background-color: #f5f5f5;
+}
+.main{
+    text-align: center;
+    background-color: #eee;
+    border-radius: 20px;
+    margin-inline-end: 5%;
+    margin-inline-start: 5%;
+
+}
+#ListOfEmployess{
+    color: brown;
+}
+.column{
+    margin-block-start: 10%;
+    font-size: 50px;
+    color: brown;
+}
+.Head{
+    margin-block-start: 10%;
+    font-size: 50px;
+    color: brown;   
+}
+label{
+    color: #5f5656;
+}
+#add{
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: blue;
+    height: 45px;
+    width: 100px;
+}
+#delete{
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: blue;
+    height: 45px;
+    width: 100px;
+}
+input{
+    border: none;
+    height: 45px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #81b29a;
+    font-size: 30px;
+    text-align: center;
+}
