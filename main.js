@@ -1,4 +1,5 @@
 var employeeList=[];
+console.log(employeeList);
 function add(val){
     if(val!=""){
         if(employeeList.includes(val)){
@@ -24,6 +25,22 @@ function remove(val){
     }else{
         alert("Name not Exist")
         document.getElementById("input").value="";
+    }
+}
+function update(val){
+    console.log(employeeList);
+    if(employeeList.includes(val)){
+        var del=employeeList.indexOf(val);
+        var Values = document.getElementById("inputUpdate").value;
+        employeeList.splice(del,1,Values);
+        document.getElementById("input").value="";
+        document.getElementById("inputUpdate").value="";
+        console.log(employeeList)
+        updateUI();
+    }else{
+        alert("Name not Exist")
+        document.getElementById("input").value="";
+        document.getElementById("inputUpdate").value="";
     }
 }
 function updateUI(){

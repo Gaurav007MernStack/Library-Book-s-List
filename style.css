@@ -31,7 +31,7 @@ label{
     color: white;
     background-color: blue;
     height: 45px;
-    width: 100px;
+    width: 105px;
 }
 #delete{
     border: none;
@@ -39,7 +39,15 @@ label{
     color: white;
     background-color: blue;
     height: 45px;
-    width: 100px;
+    width: 200px;
+}
+#update{
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: blue;
+    height: 45px;
+    width: 105px;
 }
 input{
     border: none;
@@ -49,4 +57,5 @@ input{
     background-color: #81b29a;
     font-size: 30px;
     text-align: center;
+    margin-block-start: 1%;
 }

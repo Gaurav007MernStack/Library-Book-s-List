@@ -9,8 +9,11 @@
 <body>
     <div class="main">
         <h2 class="Head">Library Management</h2>
-        <label>Enter name of Books IN Library</label>
-        <input type="text" id="input"></input>
+        <label>Enter name of Books for Insertion</label>
+        <input type="text" placeholder="Insert for Add" id="input"></input>
+        <label>Enter name of Books for Updation</label>
+        <input type="text" placeholder="Insert for Update" id="inputUpdate"></input>
+        <input type="button" id="update" value="Update" onclick="update(input.value)"></input>
         <input type="button" id="add" value="Add" onclick="add(input.value)"></input>
         <input type="button" id="delete" value="Delete" onclick="remove(input.value)"></input> 
         <div class="column">
